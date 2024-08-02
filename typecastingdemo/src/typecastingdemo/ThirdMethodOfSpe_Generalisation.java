@@ -9,11 +9,13 @@ public class ThirdMethodOfSpe_Generalisation {
         display(new Devloper());
         display(new Tester());
         System.out.println("tester");
+	    //specialisation
         Employee e1 = new Devloper();
         e1.work();
         Employee e2 = new Tester();
         e2.work();
         System.out.println("testing app");
+	    //generalisation
         Employee emp;
         emp = new Devloper();
         emp.work();
